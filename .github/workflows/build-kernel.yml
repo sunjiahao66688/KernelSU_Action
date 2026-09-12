@@ -98,7 +98,7 @@ permissions:
 jobs:
   build:
     name: Build ${{ inputs.config }}
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     timeout-minutes: 120
     outputs:
       device: ${{ steps.meta.outputs.device }}
